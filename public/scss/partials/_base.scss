@@ -1,0 +1,22 @@
+
+/*
+Headers
+
+.apply-now	- Apply now header
+
+Markup:
+<h1 class={{modifier_class}}>Example H1 Header</h1>
+
+Styleguide 1.2
+*/
+
+
+h1 {
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 1.31em;
+
+	&.apply-now {
+		color: $dark-blue;
+	}
+}

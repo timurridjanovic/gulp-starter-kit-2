@@ -1,0 +1,6 @@
+{
+  "source": "../../public/scss",
+  "template": "template",
+  "destination": "../../styleguide",
+  "css": "public/style.css"
+}

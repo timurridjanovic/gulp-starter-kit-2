@@ -1,0 +1,26 @@
+
+
+
+
+.blue-btn {
+  background-color: #002663;
+  font-size: 13px;
+  font-family: BentonSans-Bd;
+  font-weight: bold;
+  color: #fff;
+  width: 110px;
+  text-align: center;
+  display: block;
+  line-height: 38px;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+
+  &:hover {
+	background-color: red;
+  }
+
+  &.disabled {
+	background-color: gray;
+  }
+}

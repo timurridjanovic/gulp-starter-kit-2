@@ -1,0 +1,36 @@
+
+/*
+Colors
+
+.styleguide-color-example.dark-blue	- $dark-blue color
+.styleguide-color-example.azur	- $azur color
+.styleguide-color-example.gray-text	- $gray-text color
+
+Markup:
+<div class="{{modifier_class}}"></div>
+
+Styleguide 1.1
+*/
+
+
+$dark-blue: #002663;
+$azur: #009bbb;
+$gray-text: #8b8d8e;
+$black: #000;
+
+.styleguide-color-example {
+	width: 50px;
+	height: 50px;
+
+	&.dark-blue {
+		background-color: $dark-blue;
+	}
+
+	&.azur {
+		background-color: $azur;
+	}
+
+	&.gray-text {
+		background-color: $gray-text;
+	}
+}
